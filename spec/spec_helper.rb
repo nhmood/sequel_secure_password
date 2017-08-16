@@ -3,7 +3,7 @@ require 'bundler'
 Bundler.setup
 
 require 'sequel'
-require 'sequel_secure_password'
+require 'sequel/plugins/secure_password'
 
 adapter = RUBY_PLATFORM == "java" ? 'jdbc:sqlite::memory:' : 'sqlite:/'
 

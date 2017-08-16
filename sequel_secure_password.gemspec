@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sequel_secure_password/version'
+require 'sequel/plugins/secure_password/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "sequel_secure_password"

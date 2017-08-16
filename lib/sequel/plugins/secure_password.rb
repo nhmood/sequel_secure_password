@@ -1,4 +1,4 @@
-require "sequel_secure_password/version"
+require "sequel/plugins/secure_password/version"
 require "sequel"
 require "bcrypt"
 
